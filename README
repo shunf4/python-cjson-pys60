@@ -1,3 +1,18 @@
+python-cjson-pys60
+============
+
+This is a ported and modified version of python-cjson which can be found here: https://pypi.python.org/pypi/python-cjson
+
+Differences from upstream:
+
+* Able to be compiled with Python 2.2.2 libraries and run in Python 2.2.2 environment.
+* Encapsuled as a pys60v1 module project.
+* (Caution) Force any UTF-8 string to be converted to unicode python object. *This is not standard!*
+* (Caution) Force any numbers to be loaded as *long*.
+* (Caution) Allow dumping unicode python object as "\uxxxx" in JSON string. *This is not standard!* Of course, loading is supported too.
+
+---
+
 This module implements a very fast JSON encoder/decoder for Python.
 
 JSON stands for JavaScript Object Notation and is a text based lightweight
