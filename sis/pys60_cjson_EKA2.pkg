@@ -1,0 +1,21 @@
+; Installation file for pys60_cjson dll
+;
+; This is an auto-generated PKG file by Carbide.
+; This file uses variables specific to Carbide builds that will not work
+; on command-line builds. If you want to use this generated PKG file from the
+; command-line tools you will need to modify the variables with the appropriate
+; values: $(EPOCROOT), $(PLATFORM), $(TARGET)
+
+;
+; UID is the dll's UID
+;
+#{"pys60_cjson DLL"},(0xE867D20B),1,0,0
+
+
+;Localised Vendor name
+%{"Vendor-EN"}
+
+;Unique Vendor name
+:"Vendor"
+
+"$(EPOCROOT)Epoc32\release\$(PLATFORM)\$(TARGET)\pys60_cjson.dll"		  -"!:\sys\bin\pys60_cjson.dll"
